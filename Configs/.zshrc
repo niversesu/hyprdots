@@ -56,6 +56,20 @@ alias pa='$aurhelper -Ss' # list availabe package
 alias pc='$aurhelper -Sc' # remove unused cache
 alias po='$aurhelper -Qtdq | $aurhelper -Rns -' # remove unused packages, also try > $aurhelper -Qqd | $aurhelper -Rsu --print -
 alias vc='code --disable-gpu' # gui code editor
+#--
+alias spacs='$aurhelper -S'
+alias spacql='$aurhelper -Ql'
+alias spacqs='$aurhelper -Qs'
+alias spacqm='$aurhelper -Qm'
+alias spacsy='$aurhelper -Sy'
+alias spacsyu='$aurhelper -Syu'
+alias spacsc='$aurhelper -Sc'
+alias spacr='$aurhelper -R'
+alias spacrns='$aurhelper -Rns'
+alias spacss='$aurhelper -Ss'
+#--
+alias tailrun='sudo systemctl start tailscaled'
+alias tailstop='sudo systemctl stop tailscaled'
 
 # Handy change dir shortcuts
 abbr .. 'cd ..'
@@ -74,4 +88,4 @@ alias ssh='kitten ssh'
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 #Display Pokemon
-pokemon-colorscripts --no-title -r 1,3,6
+#pokemon-colorscripts --no-title -r 1,3,6
