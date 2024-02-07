@@ -63,5 +63,7 @@ fi
 
 # shell
 ./restore_shl.sh ${getShell}
+#linking
+ln -s $HOME/.config/hypr $HOME
 
 
