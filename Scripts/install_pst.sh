@@ -60,10 +60,11 @@ else
     echo -e "\033[0;33m[WARNING]\033[0m dolphin is not installed..."
 fi
 
-
+$git_email = niversesu@gmail.com
+$git_username = niversesu
 # shell
 ./restore_shl.sh ${getShell}
 #linking
 ln -s $HOME/.config/hypr $HOME
-
-
+git config --global user.email $git_email
+git config --global user.name $git_username
